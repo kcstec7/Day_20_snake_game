@@ -6,7 +6,7 @@ import random
 class Food(Turtle):
     def __init__(self):
         super().__init__()   # This makes the constructor of "Turtle" class to be called
-        self.shape("star") # "shape" is a method of "Turtle" class
+        self.shape("square") # "shape" is a method of "Turtle" class
         self.penup()
         self.shapesize(stretch_len=0.5, stretch_wid=0.5) # The default size is 20x20. So, we are reducing to the half of that
         self.color("blue")
